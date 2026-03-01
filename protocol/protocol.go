@@ -28,13 +28,15 @@ import (
 // ── Client command verbs ────────────────────────────────────────────────────
 
 const (
-	CmdNick   = "NICK"
-	CmdCreate = "CREATE"
-	CmdJoin   = "JOIN"
-	CmdLeave  = "LEAVE"
-	CmdMsg    = "MSG"
-	CmdList   = "LIST"
-	CmdQuit   = "QUIT"
+	CmdNick     = "NICK"
+	CmdCreate   = "CREATE"
+	CmdJoin     = "JOIN"
+	CmdLeave    = "LEAVE"
+	CmdMsg      = "MSG"
+	CmdList     = "LIST"
+	CmdQuit     = "QUIT"
+	CmdHost     = "HOST"
+	CmdDiscover = "DISCOVER"
 )
 
 // ── Server response prefixes ────────────────────────────────────────────────
